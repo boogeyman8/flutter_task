@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Stateful",
+          "დავალება 1",
         ),
       ),
       body: Center(
@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                           backgroundColor:
                               MaterialStateProperty.all(Colors.red)),
                       child: Text(
-                        '0',
+                        'დათვი',
                         style: TextStyle(
                           fontSize: 20.0,
                           color: Colors.white,
@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
                           backgroundColor:
                               MaterialStateProperty.all(Colors.red)),
                       child: Text(
-                        '1',
+                        'ზღარბი',
                         style: TextStyle(
                           fontSize: 20.0,
                           color: Colors.white,
@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                           backgroundColor:
                               MaterialStateProperty.all(Colors.red)),
                       child: Text(
-                        '2',
+                        'კუ',
                         style: TextStyle(
                           fontSize: 20.0,
                           color: Colors.white,
@@ -127,7 +127,7 @@ class _HomePageState extends State<HomePage> {
                           backgroundColor:
                               MaterialStateProperty.all(Colors.red)),
                       child: Text(
-                        '3',
+                        'ბუ',
                         style: TextStyle(
                           fontSize: 20.0,
                           color: Colors.white,
